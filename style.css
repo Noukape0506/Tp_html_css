@@ -5,11 +5,14 @@
 }
 
 header{
-    background-color: midnightblue;
+    background-color: #2e3440 ;
     color: #fff;
     display: flex;
     justify-content: space-between;
     padding: 12px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .logo {
@@ -35,17 +38,65 @@ header{
     color: white;
 }
 
+#banner{
+    height: 300px; 
+    background-size: cover;
+    background-image: url(../images/photo_labo.jpeg);
+    background-repeat: no-repeat;
+}
+
 main{
-    height: 400px;
+    margin: 20px 35px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.carte {
+    border: 1px solid #2e3440;
+    width: 500px;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.carte .titre{
+    border-left: 5px solid orange;
+    padding-left: 12px;
+    color: blue;
+}
+
+.carte:last-child .titre {
+    color: green;
+    
+}
+.carte p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#conteneur-tech{
+    border-left: 2px solid orange;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+#conteneur-tech ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    margin: 0;
+}
+#conteneur-tech ul li::marker{
+    color: orange;
+}
+#conteneur-tech li {
+    line-height: 1.6;
 }
 
 footer{
-    background-color: midnightblue;
+    background-color: #2e3440;
     /* marge interieur : vertical horizontal */
     padding: 16px 0px;
 }
 .f-text{
     color: white;
     text-align: center;
-
 }
