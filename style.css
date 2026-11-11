@@ -100,3 +100,11 @@ footer{
     color: white;
     text-align: center;
 }
+
+/* -----------------contact------------- */
+.entete-page {
+    height: 200px;
+    background-color: gainsboro;
+    text-align: center;
+    align-content: center;
+}
