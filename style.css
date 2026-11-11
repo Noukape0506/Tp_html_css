@@ -1,0 +1,51 @@
+/* reset */
+*{
+    /* Eliminer toutes les valeurs par défaut  */
+    margin: 0;
+}
+
+header{
+    background-color: midnightblue;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo .logo-img{
+    width: 80px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    height: 400px;
+}
+
+footer{
+    background-color: midnightblue;
+    /* marge interieur : vertical horizontal */
+    padding: 16px 0px;
+}
+.f-text{
+    color: white;
+    text-align: center;
+
+}
